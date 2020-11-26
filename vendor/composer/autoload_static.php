@@ -566,6 +566,7 @@ class ComposerStaticInitfd3c8cd9d38c3696b5aa8548fc26415a
         'App\\Http\\Controllers\\Medecin\\Auth\\ConfirmPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Medecin/Auth/ConfirmPasswordController.php',
         'App\\Http\\Controllers\\Medecin\\Auth\\MedecinLoginController' => __DIR__ . '/../..' . '/app/Http/Controllers/Medecin/Auth/MedecinLoginController.php',
         'App\\Http\\Controllers\\Medecin\\Auth\\VerificationController' => __DIR__ . '/../..' . '/app/Http/Controllers/Medecin/Auth/VerificationController.php',
+        'App\\Http\\Controllers\\Medecin\\HopitalController' => __DIR__ . '/../..' . '/app/Http/Controllers/Medecin/HopitalController.php',
         'App\\Http\\Controllers\\Medecin\\MedecinController' => __DIR__ . '/../..' . '/app/Http/Controllers/Medecin/MedecinController.php',
         'App\\Http\\Controllers\\Profile\\AllProfileController' => __DIR__ . '/../..' . '/app/Http/Controllers/Profile/AllProfileController.php',
         'App\\Http\\Controllers\\User\\AboutController' => __DIR__ . '/../..' . '/app/Http/Controllers/User/AboutController.php',

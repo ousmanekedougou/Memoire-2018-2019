@@ -52,6 +52,7 @@ return array(
     'App\\Http\\Controllers\\Medecin\\Auth\\ConfirmPasswordController' => $baseDir . '/app/Http/Controllers/Medecin/Auth/ConfirmPasswordController.php',
     'App\\Http\\Controllers\\Medecin\\Auth\\MedecinLoginController' => $baseDir . '/app/Http/Controllers/Medecin/Auth/MedecinLoginController.php',
     'App\\Http\\Controllers\\Medecin\\Auth\\VerificationController' => $baseDir . '/app/Http/Controllers/Medecin/Auth/VerificationController.php',
+    'App\\Http\\Controllers\\Medecin\\HopitalController' => $baseDir . '/app/Http/Controllers/Medecin/HopitalController.php',
     'App\\Http\\Controllers\\Medecin\\MedecinController' => $baseDir . '/app/Http/Controllers/Medecin/MedecinController.php',
     'App\\Http\\Controllers\\Profile\\AllProfileController' => $baseDir . '/app/Http/Controllers/Profile/AllProfileController.php',
     'App\\Http\\Controllers\\User\\AboutController' => $baseDir . '/app/Http/Controllers/User/AboutController.php',
