@@ -66,7 +66,7 @@
                      <p>
                           <div class="row">
                               <div class="col-lg-6">
-                              <p> Bonjour <span class="text-bold text-primary text-capitalize" style="font-size:20px;">{{ Auth::user()->prenom .' '.  Auth::user()->nom}} </span></p>
+                              <p> Bonjour <span class="text-bold text-primary text-capitalize" style="font-size:20px;">{{ Auth::guard('web')->user()->prenom .' '.  Auth::guard('web')->user()->nom}} </span></p>
                               Votre demande de rendez-vous pour l'objet que voici de la date du <span class="text-bold">{{ $validate_client->created_at->toFormattedDateString() }}</span> a ete accepter pour la date du <span class="text-bold">{{ $validate_client->dateMedecin()->toFormattedDateString() . '  a ' . $validate_client->heure_medecin }}</span>
                               
                               </div>

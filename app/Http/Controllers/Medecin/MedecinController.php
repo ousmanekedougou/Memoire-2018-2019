@@ -279,7 +279,8 @@ class MedecinController extends Controller
     }
 
     public function ticker(){
-        $ticker = Rendez_vous::where(['medecin_id'=>Auth::guard('medecin')->user()->id,'status'=>1,'status'=>2])->get();
+        $ticker = Rendez_vous::where('medecin_id', '=',Auth::guard('medecin')->user()->id)
+        ->where('prix', '>', 0)->get();
         return view('medecin.ticker.index',compact('ticker'));
 
     }

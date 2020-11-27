@@ -9,7 +9,7 @@
 		    		<div class="row d-flex">
 			    		<div class="col-md-4 pr-4 d-flex topper align-items-center">
 			    			<div class="icon bg-white mr-2 ml-4 d-flex justify-content-center align-items-center"><span class="icon-map"></span></div>
-						    <span class="text">{{ all_info()->adresse }}, Point E</span>
+						    <span class="text">{{ all_info()->adresse }}</span>
 					    </div>
 					    <div class="col-md pr-4 d-flex topper align-items-center">
 					    	<div class="icon bg-white mr-2  d-flex justify-content-center align-items-center"><span class="icon-paper-plane"></span></div>

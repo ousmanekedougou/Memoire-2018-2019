@@ -64,6 +64,19 @@ class DatabaseSeeder extends Seeder
                 'departement_id' => 1,
                 'hopital_id' => 1,
             ]);
+            Medecin::create(
+                [
+                    'prenom' => "Amadou Diallo",
+                    'email' => "medecin1@gmail.com",
+                    'phone' => "778909873",
+                    'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
+                    'status' => "1",
+                    'prix' => "2500",
+                    'proffession' => "Medecin",
+                    'specialite' => "Dérmatologue",
+                    'departement_id' => 1,
+                    'hopital_id' => 1,
+                ]);
             // Fin Isertion Medecin
 
             Departement::create([
